@@ -61,6 +61,38 @@ nav {
     object-fit: cover;
 }
 
+/* Menu */
+.menu-compte {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 200px;
+}
+
+.menu-compte ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-compte ul li {
+    padding: 12px 16px;
+    text-align: left;
+}
+
+.menu-compte ul li a {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+.account-image:hover .menu-compte {
+    display: block;
+}
+
 /* Main */
 
 main {

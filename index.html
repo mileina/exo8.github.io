@@ -17,15 +17,28 @@
         <header>
             <nav>
                 <div class="logo">
-                    <img src="images/logo.png" alt="4DX">
+                    <a href="#">
+                        <img src="images/logo.png" alt="4DX">
+                    </a>
                 </div>
                 <div class="search-bar">
                     <input type="text" placeholder="Rechercher...">
                     <button type="submit"><i class="fas fa-search"></i></button>
                 </div>
-                <div class="account-image">
-                    <img src="images/account.png" alt="utilisateur">
-                </div>
+                <nav>
+                    <div class="account-image">
+                        <a href="#menu-compte">
+                            <img src="images/account.png" alt="utilisateur">
+                        </a>
+                        <div id="menu-compte" class="menu-compte">
+                            <ul>
+                                <li><a href="#profil">Mon Profil</a></li>
+                                <li><a href="#parametres">Paramètres</a></li>
+                                <li><a href="#deconnexion">Déconnexion</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
             </nav>
         </header>
 
@@ -49,17 +62,23 @@
                 <section class="film">
                     <h2>SORTIES À VENIR</h2>
                     <div class="movie">
-                        <img src="images/affiche1.png" alt="Affiche du film 1">
+                        <a href="#">
+                            <img src="images/affiche1.png" alt="Affiche du film 1">
+                        </a>
                         <p>20 Octobre 2023</p>
                     </div>
 
                     <div class="movie">
-                        <img src="images/affiche2.png" alt="Affiche du film 2">
+                        <a href="#">
+                            <img src="images/affiche2.png" alt="Affiche du film 2">
+                        </a>
                         <p>19 Janvier 2024</p>
                     </div>
 
                     <div class="movie">
-                        <img src="images/affiche3.png" alt="Affiche du film 3">
+                        <a href="#">
+                            <img src="images/affiche3.png" alt="Affiche du film 3">
+                        </a>
                         <p>2 Mai 2024</p>
                     </div>
                 </section>
