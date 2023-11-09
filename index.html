@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Ciné</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,7 +30,8 @@
                         <a href="#menu-compte">
                             <img src="images/account.png" alt="utilisateur">
                         </a>
-                        <div id="menu-compte" class="menu-compte">
+                        <div id="menu-compte" class="menu-compte">sass css/mobile/styles.scss css/styles.css
+
                             <ul>
                                 <li><a href="#profil">Mon Profil</a></li>
                                 <li><a href="#parametres">Paramètres</a></li>
@@ -45,16 +46,16 @@
 
         <!-- Affiche de film-->
 
-            <main>
-                <img id="film" src="images/heros.png" alt="Image du héros">
-                <div class="hero-content">
-                    <img id="logoaffiche" src="images/logowhite.png" alt="Logo 4DX">
-                    <p>L'expérience de cinéma absolue</p>
-                    <p>Plongés au cœur du film, tous vos sens sont stimulés au travers d'une expérience
-                        cinématographique immersive unique et inédite.</p>
-                    <a href="#" class="discover-button">Découvrir 4DX <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </main>
+        <main class="main">
+            <img id="film" class="main__film" src="images/heros.png" alt="Image du héros">
+            <div class="main__hero-content">
+              <img id="logoaffiche" class="main__hero-content__logoaffiche" src="images/logowhite.png" alt="Logo 4DX">
+              <p class="main__hero-content__description">L'expérience de cinéma absolue</p>
+              <p class="main__hero-content__description--detailed">Plongés au cœur du film, tous vos sens sont stimulés au travers d'une expérience cinématographique immersive unique et inédite.</p>
+              <a href="#" class="main__hero-content__discover-button">Découvrir 4DX <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </main>
+          
 
 
             <!-- Film du moment-->

@@ -1,0 +1,49 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+
+  &__film { 
+    width: 100%;
+    max-width: 100%;
+  }
+
+  &__hero-content { 
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    margin: auto 0;
+
+    &__logoaffiche { 
+      width: 80%;
+      max-width: 100%;
+    }
+
+    &__description { 
+      margin-bottom: 30px;
+    
+
+    &--detailed { 
+    color:$color-text-test;
+    }
+  }
+  
+    &__discover-button { 
+      margin-top: 20px;
+      padding: 10px 20px;
+      border: none;
+      background-color: #D9D9D9;
+      color: $color-text-secondary;
+      text-transform: uppercase;
+      border-radius: 20px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s;
+
+      &:hover { 
+        background-color: $color-button-background-secondary;
+      }
+    }
+  }
+}

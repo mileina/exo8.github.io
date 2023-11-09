@@ -1,0 +1,90 @@
+/* Bureau */
+
+@media (min-width: 1440px) {
+    /* Navigation */
+    .logo {
+      img {
+        width: 100px;
+        height: auto;
+      }
+    }
+  
+    .account-image {
+      img {
+        width: 50px;
+        height: auto;
+      }
+    }
+  
+    nav {
+      padding: 1em 2em;
+    }
+  
+    .search-bar {
+      flex-grow: 1;
+      margin: 0 1em;
+  
+      input[type="text"] {
+        width: 400px;
+        height: 40px;
+        padding: 0 100px;
+      }
+  
+      button {
+        height: 40px;
+      }
+    }
+  
+    /* Main */
+
+    .main {
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 2em;
+      
+        &__film {
+          width: 60%;
+          height: auto; 
+        }
+    
+        &__hero-content {
+          width: 40%;
+          padding-right: 2em;
+    
+          &__logoaffiche {
+            width: 50%;
+          }
+    
+          &__discover-button {
+            margin-top: 1em;
+            padding: 0.2em 1em;
+            font-size: 30px;
+          }
+        }
+      }
+  
+    /* Films */
+    
+    .film {
+      text-align: center;
+    }
+  
+    .movie {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 10px;
+  
+      img {
+        width: 100%;
+        max-width: 600px;
+        margin-bottom: 10px;
+      }
+  
+      p {
+        margin: 0;
+      }
+    }
+  }
+  
